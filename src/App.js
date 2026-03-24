@@ -6,6 +6,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Services from './components/Services';
 import Footer from './components/Footer';
+import Contact from './components/Contact'; // ← add this
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <About />
       <Projects />
       <Services />
+            <Contact /> {/* ← add this */}
+
       <Footer />
     </div>
   );

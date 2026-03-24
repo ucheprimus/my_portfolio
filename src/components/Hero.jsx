@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './Hero.css';
+import React, { useEffect, useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./Hero.css";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,8 +18,8 @@ const Hero = () => {
       </div>
 
       <Container className="position-relative z-index-1">
-        <Row className="align-items-center min-vh-100">
-          <Col lg={7} className={`hero-content ${isVisible ? 'fade-in' : ''}`}>
+<Row className="align-items-center py-5 py-lg-0">
+          <Col lg={7} className={`hero-content ${isVisible ? "fade-in" : ""}`}>
             <div className="hero-badge">
               <span className="badge-dot"></span>
               <span className="badge-text">Available for Freelance</span>
@@ -36,30 +36,24 @@ const Hero = () => {
             </h1>
 
             <p className="hero-description">
-              I build powerful web & mobile applications, automate complex workflows, 
-              and create stunning visual designs. From frontend to backend, from design 
-              to deployment - I bring complete solutions to life.
+              I build powerful web & mobile applications, automate complex
+              workflows, and create stunning visual designs. From frontend to
+              backend, from design to deployment - I bring complete solutions to
+              life.
             </p>
 
-            <div className="hero-cta">
-              <a href="#projects" className="btn-primary-custom">
-                View My Work
-                <svg 
-                  className="btn-icon" 
-                  width="20" 
-                  height="20" 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth="2"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-              </a>
-              <a href="#contact" className="btn-outline-custom ms-3">
-                Get In Touch
-              </a>
-            </div>
+     <div className="hero-cta">
+  <a href="#projects" className="btn-primary-custom">
+    View My Work
+    <svg className="btn-icon" width="20" height="20" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+  <a href="#contact" className="btn-outline-custom">
+    Get In Touch
+  </a>
+</div>
 
             <div className="hero-stats">
               <div className="stat-item">
@@ -83,18 +77,18 @@ const Hero = () => {
             <div className="hero-image-container">
               {/* Glassmorphism backdrop */}
               <div className="glass-backdrop"></div>
-              
+
               {/* Profile Image with Glass Effect */}
               <div className="profile-glass-wrapper">
                 <div className="profile-image-wrapper">
-                  <img 
-                    src="/images/mypic.jpg" 
-                    alt="Uche Primus C." 
+                  <img
+                    src="/images/mypic.jpg"
+                    alt="Uche Primus C."
                     className="profile-image"
                   />
                 </div>
               </div>
-              
+
               {/* Floating Glass Cards */}
               <div className="floating-glass-card card-1">
                 <div className="glass-card-inner">
@@ -102,14 +96,14 @@ const Hero = () => {
                   <p className="card-text">Web & Mobile</p>
                 </div>
               </div>
-              
+
               <div className="floating-glass-card card-2">
                 <div className="glass-card-inner">
                   <div className="card-icon">🎨</div>
                   <p className="card-text">Design</p>
                 </div>
               </div>
-              
+
               <div className="floating-glass-card card-3">
                 <div className="glass-card-inner">
                   <div className="card-icon">⚡</div>
@@ -120,7 +114,7 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
-      
+
       <div className="scroll-indicator">
         <div className="mouse">
           <div className="wheel"></div>
