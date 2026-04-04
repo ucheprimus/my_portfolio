@@ -39,7 +39,7 @@ const Hero = () => {
               I build powerful web & mobile applications, automate complex
               workflows, and create stunning visual designs. From frontend to
               backend, from design to deployment - I bring complete solutions to
-              life.
+              life.Let's create something amazing together!
             </p>
 
      <div className="hero-cta">
