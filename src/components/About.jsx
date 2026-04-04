@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
   const skills = [
-    'React.js', 'Next.js', 'Bootstrap', 'Figma', 'UI/UX Design',
+    'PHP', 'Laravel', 'n8n','Javascript','React.js', 'Next.js', 'Bootstrap', 'Figma', 'UI/UX Design',
     'Webflow', 'WordPress', 'Graphic Design', 'Node.js', 'MongoDB'
   ];
 
